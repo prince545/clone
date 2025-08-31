@@ -35,11 +35,10 @@ export default function VideosPage() {
         </BlurFade>
         
         <div className="grid gap-6 sm:grid-cols-2">
-          {DATA.videos.map((video, idx) => (
-            <BlurFade key={video.url} delay={BLUR_FADE_DELAY * (idx + 2)}>
-              <VideoCard video={video} />
-            </BlurFade>
-          ))}
+          {/* Videos will be added here */}
+          <div className="text-center py-12 text-muted-foreground col-span-full">
+            Videos page is under construction.
+          </div>
         </div>
       </section>
     </main>
