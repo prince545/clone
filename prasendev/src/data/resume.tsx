@@ -13,7 +13,7 @@ export const DATA = {
 
   // Skills
   skills: [
-    "React", "ReactJS", "Angular", "Next.js", "TypeScript", "Node.js", "Nest.js",
+    "React", "ReactJS", "Angular", "Next.js", "TypeScript", "Node.js", "Next.js",
     "Express", "Python", "TensorFlow", "Keras", "Scikit-learn", "Flask",
     "Firebase", "MongoDB", "PostgreSQL", "Jupyter Notebook", "VS Code", "Git",
     "GitHub", "Linux", "Docker", "HTML"
