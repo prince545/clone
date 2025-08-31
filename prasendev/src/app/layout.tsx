@@ -143,7 +143,7 @@ export default function RootLayout({
           <ScrollProgress />
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
           >
