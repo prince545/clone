@@ -20,6 +20,7 @@ import { ProjectSkeleton } from "@/components/skeletons/project-skeleton";
 import { HackathonSkeleton } from "@/components/skeletons/hackathon-skeleton";
 import { BorderBeam } from "@/components/magicui/border-beam";
 import { GhibliSkyBackground } from "@/components/ghibli-elements";
+import Skills from '@/components/skills';
 const BLUR_FADE_DELAY = 0.04;
 export const metadata: Metadata = {
   title: DATA.name,
@@ -48,7 +49,6 @@ export const metadata: Metadata = {
     images: ['https://prasen.dev/portfolio.png'],
   },
 };
-
 const BlogCard = dynamic(() => import("@/components/blog-card").then(mod => mod.BlogCard), {
   ssr: true,
   loading: () => <BlogSkeleton />
@@ -143,18 +143,9 @@ export default function Page() {
         </section>
 
         <section id="skills">
-          <div className="flex min-h-0 flex-col gap-y-3">
-            <BlurFade delay={BLUR_FADE_DELAY * 9}>
-              <h2 className="text-xl font-bold">Skills</h2>
-            </BlurFade>
-            <div className="flex flex-wrap gap-1">
-              {DATA.skills.map((skill, id) => (
-                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                  <Badge key={skill}>{skill}</Badge>
-                </BlurFade>
-              ))}
-            </div>
-          </div>
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <Skills />
+          </BlurFade>
         </section>
 
         <section id="contributions">
