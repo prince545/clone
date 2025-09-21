@@ -40,34 +40,75 @@ export const DATA = {
 
   // Projects
   projects: [
-    {
-      title: "Project 1",
-      href: "https://project1.com",
-      dates: "Jan 2025 - Feb 2025",
-      active: true,
-      description: "Description of project 1",
-      technologies: ["React", "TypeScript", "Node.js"],
-      links: [
-        { type: "Website", href: "https://project1.com", icon: <Icons.globe className="size-3" /> },
-        { type: "Source", href: "https://github.com/project1", icon: <Icons.github className="size-3" /> },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Project 2",
-      href: "https://project2.com",
+{
+  title: "Blog App",
+  href: "https://blog-app-heo1.vercel.app/",
+  dates: "Jan 2025 - Feb 2025",
+  active: true,
+  description: `About: A modern full-stack blog application built with Next.js, Express, and MongoDB. This project features a beautiful UI, user authentication, blog CRUD, image uploads, search, category filtering, and more.`,
+  technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Next.js", "TailwindCSS"],
+  links: [
+    { type: "Website", href: "https://blog-app-heo1.vercel.app/", icon: <Icons.globe className="size-3" /> },
+    { type: "Source", href: "https://github.com/prince545/blog-app", icon: <Icons.github className="size-3" /> },
+  ],
+  image: "/1.png",
+  video: "",
+},
+    
+{
+  title: "Doctor Appointment Booking App",
+  href: "https://doctor-app-beta.vercel.app/",
+  dates: "Jan 2025 - Feb 2025",
+  active: true,
+  description: `About: A modern full-stack Doctor appointment application built with Next.js, Express, and MongoDB. This project features a beautiful UI, user authentication, blog CRUD, image uploads, search, category filtering, and more.`,
+  technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Next.js", "TailwindCSS"],
+  links: [
+    { type: "Website", href: "https://doctor-app-beta.vercel.app/", icon: <Icons.globe className="size-3" /> },
+    { type: "Source", href: "https://github.com/prince545/Doctor-App", icon: <Icons.github className="size-3" /> },
+  ],
+  image: "/4.png",
+  video: "",
+},
+{
+  title: "AI Image Generation App",
+  href: "https://imageapp-sigma.vercel.app/",
+  dates: "Jan 2025 - Feb 2025",
+  active: true,
+  description: `A beautiful and modern React application that transforms text prompts into stunning AI-generated images. Built with React 19, Vite, Tailwind CSS, and integrated with multiple AI services.`,
+  technologies: ["React", "TypeScript",  "TailwindCSS"],
+  links: [
+    { type: "Website", href: "https://imageapp-sigma.vercel.app/", icon: <Icons.globe className="size-3" /> },
+    { type: "Source", href: "https://github.com/prince545/imageapp", icon: <Icons.github className="size-3" /> },
+  ],
+  image: "/5.png",
+  video: "",
+},
+{
+  title: "Flipkart Product Advicer",
+  href: "https://flipkart-product-advisor.onrender.com/",
+  dates: "Jan 2025 - Feb 2025",
+  active: true,
+  description: `AI-powered shopping assistant that analyzes Flipkart products and provides personalized recommendations using Google Gemini Pro. Built with Python, Flask, Selenium, and Tailwind CSS.`,
+  technologies: ["Python", "Flask", "Selenium", "TailwindCSS", "Google Gemini Pro"],
+  links: [
+    { type: "Website", href: "https://flipkart-product-advisor.onrender.com/", icon: <Icons.globe className="size-3" /> },
+    { type: "Source", href: "https://github.com/prince545/Flipkart-Product-Advisor", icon: <Icons.github className="size-3" /> },
+  ],
+  image: "/6.png",
+  video: "",
+},
+{
+      title: "Food Delivery App",
+      href: "https://food-del-app-tv7p.vercel.app/",
       dates: "March 2025 - April 2025",
       active: true,
       description: "Description of project 2",
-      technologies: ["Next.js", "TailwindCSS"],
+      technologies: ["Reactjs", "TailwindCSS",],
       links: [
-        { type: "Website", href: "https://project2.com", icon: <Icons.globe className="size-3" /> },
-        { type: "Source", href: "https://github.com/project2", icon: <Icons.github className="size-3" /> },
+        { type: "Website", href: "https://food-del-app-tv7p.vercel.app/", icon: <Icons.globe className="size-3" /> },
+        { type: "Source", href: "https://github.com/prince545/food-del-app", icon: <Icons.github className="size-3" /> },
       ],
-      image: "",
-      video: "",
+      image: "/3.png",
     },
-    // Add more projects here if needed
-  ],
+],
 } as const;
